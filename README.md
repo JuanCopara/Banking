@@ -54,4 +54,4 @@ La colección de Postman se encuentra en el directorio del proyecto bajo el nomb
 
 ## Contacto
 
-Para cualquier duda o soporte adicional, por favor contacta a [tu_email@dominio.com](mailto:tu_email@dominio.com).
+Para cualquier duda o soporte adicional, por favor contacta a [juan.copara@hotmail.com](mailto:juan.copara@hotmail.com).
