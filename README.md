@@ -10,6 +10,7 @@ Para ejecutar el aplicativo utilizando Docker Compose, sigue estos pasos:
 
 - **Docker**: Asegúrate de tener Docker instalado en tu máquina. Puedes descargarlo desde [aquí](https://www.docker.com/get-started).
 - **Docker Compose**: Necesitarás Docker Compose para definir y ejecutar aplicaciones multi-contenedor. Puedes encontrar la instalación [aquí](https://docs.docker.com/compose/install/).
+- No es necesario ejecutar los script de base de datos ya que se esta usando la base de datos H2 y se estan creando las tablas automaticamente
 
 ### Configuración
 
