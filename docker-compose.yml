@@ -1,0 +1,29 @@
+version: '3.9'
+services:
+  account:
+    container_name: account
+    image: account:1.0.0
+    build:
+      context: ./Account
+      dockerfile: dockerfile
+    ports:
+      - "8081:8081"
+    networks:
+      - my-network
+    depends_on:
+      - client
+
+  client:
+    container_name: client
+    image: client:1.0.0
+    build:
+      context: ./Client
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    networks:
+      - my-network
+
+networks:
+  my-network:
+    driver: bridge

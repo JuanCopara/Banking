@@ -1,0 +1,12 @@
+{
+
+  "dni":"71270992",
+  "name":"pepito perez",
+  "password":"aaAA123",
+  "gender":"MASCULINO",
+  "age":20,
+  "address":"AQP",
+  "phone":"+51915176491",
+  "isActive": true
+
+}
