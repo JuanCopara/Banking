@@ -16,8 +16,8 @@ Para ejecutar el aplicativo utilizando Docker Compose, sigue estos pasos:
 1. **Clona el repositorio**: Si aún no lo has hecho, clona el repositorio del proyecto:
 
     ```bash
-    git clone <URL_DEL_REPOSITORIO>
-    cd <NOMBRE_DEL_REPOSITORIO>
+    git clone https://github.com/JuanCopara/Banking.git
+    cd Banking
     ```
 
 2. **Construye y levanta los contenedores**: Asegúrate de estar en el directorio que contiene el archivo `docker-compose.yml`, luego ejecuta:
@@ -45,8 +45,10 @@ Para realizar pruebas en los microservicios, se proporciona una colección de Po
 
 2. **Ejecutar las pruebas**:
    - Una vez importada la colección, encontrarás diferentes solicitudes para probar los endpoints de los microservicios **Account** y **Client**.
-   - Selecciona una solicitud y haz clic en el botón `Send` para realizar la prueba.
-   - Revisa las respuestas para asegurarte de que los servicios estén funcionando correctamente.
+   - Se debe empezar por las pruebas de cliente 
+   - Se debe continuar con las pruebas de cuenta
+   - Se debe continuar con la prueba de movimiento
+   - Se termina con la prueba del reporte de movimientos
 
 ### Archivo de la Colección
 
